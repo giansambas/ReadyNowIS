@@ -19,7 +19,7 @@ import {
   LogIn
 } from 'lucide-react';
 import { BARANGAY_DATA, EVACUATION_DATA } from './constants';
-import { getPreparednessGuidance } from './services/geminiService';
+import { getPreparednessGuidance } from './geminiService';
 
 // --- Types ---
 interface Report {
